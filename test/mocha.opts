@@ -1,0 +1,6 @@
+-r co-mocha
+-r ./test/helpers
+--reporter spec
+--ui bdd
+--recursive
+--timeout 10000
